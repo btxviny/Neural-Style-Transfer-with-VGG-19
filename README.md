@@ -7,6 +7,11 @@ By leveraging a pre-trained convolutional neural network (VGG-19), the algorithm
 This implementation is inspired by the paper:
 [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576)
 ## Inference Instructions
+- Install the necessary requirements:
+     ```bash
+     python -m pip install -r requirements.txt
+     ```
+
 - Run the following command:
      ```bash
      python neural_style.py --content_image_path ./content1.jpg --style_image_path ./style1.jpg --output_image_path ./result.jpg
